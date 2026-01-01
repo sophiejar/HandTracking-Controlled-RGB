@@ -18,12 +18,12 @@ Connect your Common Cathode RGB LED to your Arduino as follows:
 ### 1. Prepare the Hardware
 Upload the `.ino` code in the `HandtrackingRGBControl` folder to your Arduino board. **Important:** Make sure the Serial Monitor in the Arduino IDE is closed before moving to the next step.
 
-### 2. Install Dependencies
+# 2. Install Dependencies
 Run this command in your terminal/command prompt to install the required Python libraries:
 ```bash
 pip install opencv-python mediapipe pyserial numpy
 
-## 3. **Run the System**
+### 3. **Run the System**
 Open the main.py file and verify that the SERIAL_PORT matches your Arduino (e.g., 'COM3'). Then, run:
 python handcolor.py
 
